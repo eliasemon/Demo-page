@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto:400,500,700,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif; 
+}
+p{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+img{
+	vertical-align: middle;
+}
+.clear{
+	clear: both;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
+}
+/* common css ends */
+/* banner css start */
+#banner{
+	background: url('../images/banner.jpg');
+	/* background-repeat: resize; */
+	background-position: top;
+	background-size: cover;
+}
+#banner .banner_overlay{
+	padding: 200px 0;
+	background-color: rgba(0, 0, 0, .3);
+}
+/* banner css ends */
+/* demo css start */
+#demo{}
+#demo .demo_box{
+	height: 300px;
+	width: 330px;
+	transition: all linear .1000s;
+}
+#demo .demo_box:hover .img_box img{
+	margin-top: -150%;
+	transition: .10s;
+}
