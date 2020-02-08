@@ -42,10 +42,36 @@ body{
 	padding: 200px 0;
 	background-color: rgba(0, 0, 0, .3);
 }
+#banner .content h2{
+	color: #fff;
+	text-shadow:  25px 19px 7px black;
+	margin-bottom: 24px;
+}
+#banner .content a{
+	padding: 10px 17px;
+	background: green;
+	color: #fff;
+	font-size: 17px;
+	border-radius: 20px;
+	box-shadow: 3px 5px 15px #fff;	
+	transition: .4s;
+}
+#banner .content a:hover{
+	background:#f39c12;
+
+}
 /* banner css ends */
 /* demo css start */
 #demo{
 	background: #dbdbdb;
+	padding: 50px 0;
+}
+#demo .heading{
+	padding: 20px 0;
+}
+#demo .heading h2{
+	border-bottom: 2px solid #e67e22;
+	padding-bottom: 6px;
 }
 #demo .main_box{
 	height: auto;
@@ -58,6 +84,39 @@ body{
 	height: 300px;
 	transition: all linear 5s;
 	background: #ffffff;
+}
+#demo .sixth{
+	background: url('../images/demo/demobg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#demo .sixth h2{
+	color: #ffeaa7;
+	animation: animate 3s infinite;
+}
+@keyframes animate{
+	0%{
+		margin-top: -20px;
+		margin-left: -20px;
+	}
+	25%{
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	50%{
+		margin-bottom:  -20px;
+		margin-right:  -20px;
+		color :#ff7675;
+	}
+	75%{
+		margin-bottom:  0px;
+		margin-right:  0px;
+	}
+	100%{
+		margin-top: -20px;
+		margin-left: -20px;
+	}
 }
 #demo .demo_box .img_box{
 	position: relative;
@@ -88,6 +147,22 @@ body{
 	margin-top: -334%;
 	transition: 5s;
 }
+#demo a.effect:hover .second .img_box img{
+	margin-top: -209% !important;
+	transition: 3s;
+}
+#demo a.effect:hover .third .img_box img{
+	margin-top: -160% !important;
+	transition: 3s;
+}
+#demo a.effect:hover .fourth .img_box img{
+	margin-top: -289% !important;
+	transition: 3s;
+}
+#demo a.effect:hover .fifth .img_box img{
+	margin-top: --202% !important;
+	transition: 3s;
+}
 #demo a.effect:hover .demo_box .img_box .overlay{
 	left: 0;
 }
@@ -97,7 +172,7 @@ body{
 	background: #ffffff;
 }
 #demo .demo_underheading h1{
-	color: #34495e;
+	text-shadow: 10px 8px 5px black;
 	font-size: 22px;
 	text-align: center;
 }
@@ -105,6 +180,27 @@ body{
 /* note css start */
 #note{
 	padding: 80px 0;
+}
+#note .content h5{
+	color: #34495e;
+	margin-bottom: 13px;
+}
+#note .content h1{
+	color: #2d3436;
+	font-size: 29px;
+	margin-bottom: 30px;
+}
+#note .content a{
+	padding: 10px 17px;
+	border: 2px solid #e84393;
+	font-size: 20px;
+	color: #00b894;
+	transition: .4s;
+	border-radius: 20px;
+}
+#note .content a:hover{
+	color: #fff;
+	background: #e84393;
 }
 /* note css end */
 /* footer css start */
