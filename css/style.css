@@ -160,7 +160,7 @@ body{
 	transition: 3s;
 }
 #demo a.effect:hover .fifth .img_box img{
-	margin-top: --202% !important;
+	margin-top: -202% !important;
 	transition: 3s;
 }
 #demo a.effect:hover .demo_box .img_box .overlay{
